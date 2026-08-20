@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; }
+    @font-face { font-family: 'system'; src: local('Helvetica Neue'); }
+  </style>
+</helmet>
+<div style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #1c2430; background: #ffffff;">
+
+  <!-- NAV -->
+  <div style="border-bottom:1px solid #eceef1;">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 48px; max-width:1280px; margin:0 auto;">
+      <div style="display:flex; align-items:center; flex-shrink:0;">
+        <img src="https://dwi.dk/wp-content/uploads/2026/03/logo_03-web4.png" alt="DWI" style="height:34px; width:auto;"/>
+      </div>
+      <div style="display:flex; gap:30px; font-size:13px; color:#3a4250; font-weight:500; flex-wrap:nowrap; white-space:nowrap; min-width:0;">
+        <div>Drikkevand</div>
+        <div>Fjernvarme</div>
+        <div>Instrumentsalg</div>
+        <div>Digitalisering</div>
+        <div>Kurser</div>
+        <div>Viden</div>
+        <div>Om DWI</div>
+      </div>
+      <div style="background:#123a63; color:#fff; padding:9px 18px; border-radius:6px; font-size:13px; font-weight:600; flex-shrink:0; white-space:nowrap;">Kontakt</div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="position:relative; min-height:560px; display:flex; align-items:center; overflow:hidden; background:#0f2c4c;">
+    <video id="heroVideo" src="assets/pulse-generator-hero.mp4" autoplay muted loop playsinline style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.28;"></video>
+    <div style="position:relative; z-index:1; max-width:1280px; width:100%; margin:0 auto; padding:0 48px;">
+      <div style="max-width:590px;">
+        <div style="font-size:46px; font-weight:700; color:#fff; line-height:1.12; margin-bottom:20px;">Danish Water Innovation</div>
+        <div style="font-size:17px; color:#c7d3e0; line-height:1.6; margin-bottom:32px;">Danish Water Innovation er et spin-out af Leif Koch som er lukket ned. Du får den samme faglige ekspertise og kvalitet, du kender — nu med endnu flere specialister bag dig. Vi er en betroet samarbejdspartner med speciale i lækagesporing, lækagesøgning, ledningssøgning og overvågning af kritisk drikkevands- og fjernvarmeinfrastruktur.</div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <div style="background:#7fd8d8; color:#0f2c4c; padding:14px 24px; border-radius:6px; font-weight:700; font-size:15px;">Kontakt os på 31 72 31 31</div>
+          <div style="border:1.5px solid #4a6280; color:#fff; padding:14px 24px; border-radius:6px; font-weight:700; font-size:15px;">Akut service på 70 23 98 98</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div style="display:grid; grid-template-columns:1.1fr 0.9fr; gap:64px; padding:96px 48px; align-items:center; max-width:1280px; margin:0 auto;">
+    <img src="https://dwi.dk/wp-content/uploads/2026/06/IMG_4916.png" style="width:100%; height:440px; object-fit:cover; border-radius:12px;" alt="DWI feltarbejde"/>
+    <div>
+      <div style="font-size:32px; font-weight:700; color:#123a63; margin-bottom:20px; line-height:1.2;">Om DWI</div>
+      <div style="font-size:16px; line-height:1.7; color:#4a5361; margin-bottom:16px;">Danish Water Innovation (DWI) arbejder med lækagesøgning, ledningssøgning og teknologi til vandforsyninger og organisationer, der driver kritisk infrastruktur. Vi afholder også kurser i lækage- og ledningssøgning og leverer udstyr og løsninger til arbejdet i felten.</div>
+      <div style="font-size:16px; line-height:1.7; color:#4a5361;">Vi er et praktisk orienteret firma med arbejde ude i ledningsnettet. Samtidig anvender vi avancerede værktøjer til analyse, overvågning og forståelse af, hvad der faktisk sker under jorden. Målet er enkelt: mindre vandtab, bedre drift og stærkere forsyningssikkerhed.</div>
+    </div>
+  </div>
+
+  <!-- FIELD TO DIGITAL -->
+  <div style="background:#f6f7f9; padding:96px 48px;">
+    <div style="display:grid; grid-template-columns:0.9fr 1.1fr; gap:64px; max-width:1280px; margin:0 auto; align-items:center;">
+      <div>
+        <div style="font-size:32px; font-weight:700; color:#123a63; margin-bottom:20px; line-height:1.2;">Fra arbejde i felten til digitale løsninger</div>
+        <div style="font-size:16px; line-height:1.7; color:#4a5361; margin-bottom:16px;">DWI bygger på mange års erfaring med lækagesøgning og arbejde i ledningsnet. Når en forsyning har et problem, starter arbejdet ofte i virkeligheden – ude på vejen, i brønden eller i ledningsnettet. Det er dér, man lærer systemerne at kende.</div>
+        <div style="font-size:16px; line-height:1.7; color:#4a5361;">Men moderne vandforsyning kræver mere end det. Derfor kombinerer vi klassisk lækagesporing med dataanalyse, overvågning og teknologiske løsninger, så problemer både kan løses hurtigt og forebygges fremover. Den tilgang gør det muligt både at reagere på det akutte – og arbejde mere systematisk med hele nettet.</div>
+      </div>
+      <img src="https://dwi.dk/wp-content/uploads/2024/10/DWS-multidevice.png" style="width:100%; height:400px; object-fit:contain; border-radius:12px;" alt="DWI overvågningsdashboard på flere enheder"/>
+    </div>
+  </div>
+
+  <!-- WORK AREAS -->
+  <div style="padding:96px 48px;">
+    <div style="max-width:1280px; margin:0 auto;">
+      <div style="text-align:center; max-width:640px; margin:0 auto 64px;">
+        <div style="font-size:32px; font-weight:700; color:#123a63; margin-bottom:16px;">DWI's fem arbejdsområder</div>
+        <div style="font-size:16px; line-height:1.6; color:#4a5361;">DWI arbejder i dag på fem områder, som tilsammen giver et samlet billede af et ledningsnet. De fem områder hænger tæt sammen. Erfaringer fra arbejdet i felten bruges til at udvikle bedre metoder, bedre teknologi og bedre beslutningsgrundlag for forsyningerne.</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:20px;">
+        <div style="border:1px solid #d8dce1; border-radius:10px; padding:24px 20px; display:flex; flex-direction:column; gap:16px; background:#fff; box-shadow:0 2px 8px rgba(18,58,99,0.08);">
+          <div style="width:36px; height:36px; border-radius:8px; background:#e6f6f6; border:1.5px solid #0f8a8a; display:flex; align-items:center; justify-content:center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f8a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+          </div>
+          <div style="font-size:16px; font-weight:700; color:#123a63; line-height:1.3;">Lækage- &amp; Ledningssøgning</div>
+          <div style="font-size:14px; line-height:1.55; color:#5a6472; flex:1;">Lækagesøgning og ledningssøgning i vandforsyninger, hvor problemer lokaliseres præcist og hurtigt.</div>
+          <div style="font-size:14px; font-weight:600; color:#0f8a8a;">Se mere →</div>
+        </div>
+        <div style="border:1px solid #d8dce1; border-radius:10px; padding:24px 20px; display:flex; flex-direction:column; gap:16px; background:#fff; box-shadow:0 2px 8px rgba(18,58,99,0.08);">
+          <div style="width:36px; height:36px; border-radius:8px; background:#e6f6f6; border:1.5px solid #0f8a8a; display:flex; align-items:center; justify-content:center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f8a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 12l4-4"/><path d="M12 3v2"/><path d="M21 12h-2"/></svg>
+          </div>
+          <div style="font-size:16px; font-weight:700; color:#123a63; line-height:1.3;">Instrumentsalg, udlejning &amp; leasing</div>
+          <div style="font-size:14px; line-height:1.55; color:#5a6472; flex:1;">Salg, udlejning og leasing af professionelt udstyr til lækagesporing, korrelation, sporgasundersøgelser, ledningssøgning og analyseværktøjer.</div>
+          <div style="font-size:14px; font-weight:600; color:#0f8a8a;">Se mere →</div>
+        </div>
+        <div style="border:1px solid #d8dce1; border-radius:10px; padding:24px 20px; display:flex; flex-direction:column; gap:16px; background:#fff; box-shadow:0 2px 8px rgba(18,58,99,0.08);">
+          <div style="width:36px; height:36px; border-radius:8px; background:#e6f6f6; border:1.5px solid #0f8a8a; display:flex; align-items:center; justify-content:center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f8a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/></svg>
+          </div>
+          <div style="font-size:16px; font-weight:700; color:#123a63; line-height:1.3;">Kursus, Træning &amp; Rådgivning</div>
+          <div style="font-size:14px; line-height:1.55; color:#5a6472; flex:1;">DWI Leak Academy tilbyder vores kunder kurser, træning og rådgivning inden for relevante områder for både medarbejdere og ledere i vandbranchen.</div>
+          <div style="font-size:14px; font-weight:600; color:#0f8a8a;">Se mere →</div>
+        </div>
+        <div style="border:1px solid #d8dce1; border-radius:10px; padding:24px 20px; display:flex; flex-direction:column; gap:16px; background:#fff; box-shadow:0 2px 8px rgba(18,58,99,0.08);">
+          <div style="width:36px; height:36px; border-radius:8px; background:#e6f6f6; border:1.5px solid #0f8a8a; display:flex; align-items:center; justify-content:center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f8a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg>
+          </div>
+          <div style="font-size:16px; font-weight:700; color:#123a63; line-height:1.3;">Datalogger Løsninger</div>
+          <div style="font-size:14px; line-height:1.55; color:#5a6472; flex:1;">Vi er førende eksperter inden for rådgivning, salg og installation af innovative digitale overvågnings- og dataopsamlingsløsninger.</div>
+          <div style="font-size:14px; font-weight:600; color:#0f8a8a;">Se mere →</div>
+        </div>
+        <div style="border:1px solid #d8dce1; border-radius:10px; padding:24px 20px; display:flex; flex-direction:column; gap:16px; background:#fff; box-shadow:0 2px 8px rgba(18,58,99,0.08);">
+          <div style="width:36px; height:36px; border-radius:8px; background:#e6f6f6; border:1.5px solid #0f8a8a; display:flex; align-items:center; justify-content:center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0f8a8a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M8.5 15.5a5 5 0 0 1 0-7"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M5.6 18.4a10 10 0 0 1 0-12.8"/><path d="M18.4 5.6a10 10 0 0 1 0 12.8"/></svg>
+          </div>
+          <div style="font-size:16px; font-weight:700; color:#123a63; line-height:1.3;">Online Realtids Overvågning</div>
+          <div style="font-size:14px; line-height:1.55; color:#5a6472; flex:1;">Avanceret AI-baseret analyse af data fra vanddistributions-netværket, hvor maskinlæring og overvågning giver realtidsoverblik over forsyningsnetværket.</div>
+          <div style="font-size:14px; font-weight:600; color:#0f8a8a;">Se mere →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRACTICAL EXPERIENCE -->
+  <div style="background:#f6f7f9; padding:96px 48px;">
+    <div style="display:grid; grid-template-columns:1.1fr 0.9fr; gap:64px; max-width:1280px; margin:0 auto; align-items:center;">
+      <div>
+        <div style="font-size:32px; font-weight:700; color:#123a63; margin-bottom:24px; line-height:1.2;">Praktisk erfaring giver bedre teknologi</div>
+        <div style="font-size:16px; line-height:1.7; color:#4a5361; margin-bottom:16px;">Hos DWI udvikles løsninger ikke kun på kontoret. De bliver formet af det arbejde, der foregår i brønde, gader og ledningsnet rundt omkring i landet.</div>
+        <div style="font-size:16px; line-height:1.7; color:#4a5361;">Når man dagligt arbejder med rigtige lækager og rigtige installationer, får man en forståelse af systemerne, som ikke kan læses i en manual. Den viden bruger vi til at forbedre både metoder, udstyr og digitale værktøjer. Derfor tager vores løsninger udgangspunkt i virkeligheden – ikke kun i teori.</div>
+      </div>
+      <img src="https://dwi.dk/wp-content/uploads/2026/06/IMG_4995.png" style="width:100%; height:440px; object-fit:cover; border-radius:12px;" alt="DWI teknikere tester udstyr i felten"/>
+    </div>
+  </div>
+
+  <!-- COLLABORATION + VIDEO -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:0;">
+    <img src="https://dwi.dk/wp-content/uploads/2026/06/IMG_3517.png" style="width:100%; height:560px; object-fit:cover;" alt="DWI arbejde i felten"/>
+    <div style="background:#123a63; padding:80px 48px; display:flex; flex-direction:column; justify-content:center; color:#fff;">
+      <div style="font-size:30px; font-weight:700; margin-bottom:20px; line-height:1.2;">Samarbejde med vandforsyninger</div>
+      <div style="font-size:15.5px; line-height:1.7; color:#c7d3e0; margin-bottom:16px;">DWI arbejder primært med vandforsyninger, men også med entreprenører, industrivirksomheder og organisationer, der arbejder med kritisk infrastruktur.</div>
+      <div style="font-size:15.5px; line-height:1.7; color:#c7d3e0; margin-bottom:16px;">Nogle gange handler opgaven om en konkret lækage. Andre gange om at forstå et helt ledningsnet bedre og skabe et mere robust system.</div>
+      <div style="font-size:15.5px; line-height:1.7; color:#c7d3e0; margin-bottom:32px;">I begge tilfælde er målet det samme: at skabe overblik og reducere tab af vand.</div>
+      <div style="background:#7fd8d8; color:#0f2c4c; padding:14px 26px; border-radius:6px; font-weight:700; font-size:15px; width:fit-content;">Få rådgivning</div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div style="padding:96px 48px; max-width:800px; margin:0 auto;">
+    <div style="font-size:32px; font-weight:700; color:#123a63; margin-bottom:40px; text-align:center;">Ofte stillede spørgsmål</div>
+    <sc-for list="{{ faqs }}" as="faq" hint-placeholder-count="3">
+      <div style="border-bottom:1px solid #e6e8ec; padding:22px 4px; cursor:pointer;" onClick="{{ faq.toggle }}">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <div style="font-size:16px; font-weight:600; color:#123a63;">{{ faq.q }}</div>
+          <div style="font-size:20px; color:#0f8a8a; font-weight:400;">{{ faq.symbol }}</div>
+        </div>
+        <sc-if value="{{ faq.open }}">
+          <div style="font-size:15px; line-height:1.6; color:#5a6472; margin-top:14px; max-width:640px;">{{ faq.a }}</div>
+        </sc-if>
+      </div>
+    </sc-for>
+  </div>
+
+  <!-- CONTACT FOOTER -->
+  <div style="background:#0f6f6f; padding:80px 48px; text-align:center; color:#fff;">
+    <div style="font-size:30px; font-weight:700; margin-bottom:16px;">Kontakt DWI</div>
+    <div style="font-size:16px; line-height:1.6; color:#d5ece9; max-width:640px; margin:0 auto 48px;">Kontakt os for kompetent rådgivning, lækagesøgning og ledningslokalisering til dit vandværk eller vandforsyning. Vi assisterer også erhvervskunder og private husstande med professionelle løsninger.</div>
+    <div style="display:flex; justify-content:center; gap:100px; flex-wrap:wrap;">
+      <div style="font-size:19px; font-weight:700;">+45 31 72 31 31</div>
+      <div style="font-size:19px; font-weight:700;">info@dwi.dk</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#0f2c4c; padding:56px 48px 32px; color:#c7d3e0;">
+    <div style="display:flex; justify-content:space-between; gap:48px; max-width:1280px; margin:0 auto; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; background:#fff; padding:8px 14px; border-radius:8px; width:fit-content;">
+        <img src="https://dwi.dk/wp-content/uploads/2026/03/logo_03-web4.png" alt="DWI" style="height:30px; width:auto;"/>
+      </div>
+      <div style="display:flex; gap:56px; flex-wrap:wrap;">
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:14px;">
+          <div style="font-size:12px; font-weight:700; letter-spacing:1px; color:#7fd8d8; text-transform:uppercase; margin-bottom:4px;">Løsninger</div>
+          <div>Drikkevand</div>
+          <div>Fjernvarme</div>
+          <div>Instrumentsalg</div>
+          <div>Digitalisering</div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:14px;">
+          <div style="font-size:12px; font-weight:700; letter-spacing:1px; color:#7fd8d8; text-transform:uppercase; margin-bottom:4px;">Om DWI</div>
+          <div>Kurser &amp; Rådgivning</div>
+          <div>Viden &amp; Cases</div>
+          <div>Om DWI</div>
+          <div>Kontakt</div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:10px; font-size:14px;">
+          <div style="font-size:12px; font-weight:700; letter-spacing:1px; color:#7fd8d8; text-transform:uppercase; margin-bottom:4px;">Kontakt</div>
+          <div>+45 31 72 31 31</div>
+          <div>info@dwi.dk</div>
+        </div>
+      </div>
+    </div>
+    <div style="max-width:1280px; margin:40px auto 0; padding-top:24px; border-top:1px solid #24405f; font-size:13px; color:#8ea3bd;">© 2026 Danish Water Innovation</div>
+  </div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { openFaq: 0 };
+
+  renderVals() {
+    const faqData = [
+      { q: 'Hvad laver DWI?', a: 'DWI arbejder med lækagesøgning, ledningssøgning, teknologi, kurser og rådgivning inden for vandinfrastruktur.' },
+      { q: 'Arbejder I både praktisk og med teknologi?', a: 'Ja. Vores arbejde i felten kombineres med instrumenter, dataanalyse og digitale løsninger.' },
+      { q: 'Hvad er HydrantAI?', a: 'HydrantAI er vores AI-baserede analyseløsning til overvågning af vanddistributionsnetværk i realtid.' },
+    ];
+
+    const faqs = faqData.map((f, i) => ({
+      q: f.q,
+      a: f.a,
+      open: this.state.openFaq === i,
+      symbol: this.state.openFaq === i ? '−' : '+',
+      toggle: () => this.setState(s => ({ openFaq: s.openFaq === i ? -1 : i })),
+    }));
+
+    return { faqs };
+  }
+}
+</script>
+<script>
+(function () {
+  function tryPlay() {
+    var v = document.getElementById('heroVideo');
+    if (!v) return;
+    v.muted = true;
+    v.defaultMuted = true;
+    v.play().catch(function () {});
+  }
+  tryPlay();
+  window.addEventListener('load', tryPlay);
+  ['click', 'touchstart', 'scroll', 'keydown'].forEach(function (evt) {
+    document.addEventListener(evt, tryPlay, { passive: true });
+  });
+  var observer = new MutationObserver(tryPlay);
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
+</body>
+</html>
